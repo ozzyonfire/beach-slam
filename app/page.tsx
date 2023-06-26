@@ -6,7 +6,7 @@ export default function FreelancerHome() {
   return (
     <main className="flex flex-col min-h-screen">
       <Navbar />
-      <div className='relative w-full h-[300px] md:h-[400px]'>
+      <div className='relative w-full h-[300px] md:h-[400px] xl:h-[600px]'>
         <Image
           src="/img/full.jpg"
           alt="Beach Slam Logo"
