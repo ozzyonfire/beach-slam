@@ -2,6 +2,7 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import clsx from "clsx";
+import SongRequest from "./songrequest";
 
 export function Navbar() {
 	const [scrollPosition, setScrollPosition] = useState(0);
@@ -61,6 +62,7 @@ export function Navbar() {
 							{link.name}
 						</a>
 					))}
+					<SongRequest />
 				</nav>
 			</div>
 		</nav>

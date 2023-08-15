@@ -1,4 +1,5 @@
 import Section from '@/components/section'
+import Teams from '@/components/teams'
 import { Navbar } from '@/components/ui'
 import Image from 'next/image'
 
@@ -44,16 +45,12 @@ export default function FreelancerHome() {
       </Section>
       <Section title="Teams" colour='primary' id="teams">
         <div className="container mx-auto text-lg">
-          <p className='text-center'>
-            No teams are registered yet. Check back soon!
-          </p>
+          <Teams />
         </div>
       </Section>
       <Section title="Schedule & Bracket" colour='white' id="schedule">
-        <div className="container mx-auto text-lg">
-          <p className='text-center'>
-            The schedule and bracket will be posted here once registration closes.
-          </p>
+        <div className="container mx-auto text-lg rounded-md overflow-hidden">
+          <iframe src="https://challonge.com/gmhtu86k/module" width="100%" height="600"></iframe>
         </div>
       </Section>
       <footer className="footer">
