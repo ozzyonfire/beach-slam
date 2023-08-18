@@ -51,7 +51,7 @@ export default function Teams() {
 			'Cindy L',
 		]
 	}, {
-		name: 'BodyBreak',
+		name: 'Body Break',
 		subtitle: 'with Hal Johnson and Joanne McLeod',
 		players: [
 			'Matt O',
@@ -60,6 +60,22 @@ export default function Teams() {
 			'Paul VW',
 			'Jacklyn H',
 			'Di F',
+		]
+	}, {
+		name: 'The Replacements',
+		players: [
+			'John H',
+			'Mike F',
+			'Jacqueline J',
+			'Dante R'
+		]
+	}, {
+		name: 'Bad Apples',
+		players: [
+			'Colin C',
+			'Don',
+			'Missy',
+			'Stacey'
 		]
 	}];
 
