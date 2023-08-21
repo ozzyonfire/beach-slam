@@ -75,7 +75,8 @@ export default function Teams() {
 			'Colin C',
 			'Don',
 			'Missy',
-			'Stacey'
+			'Stacey',
+			'Colleen R'
 		]
 	}];
 
