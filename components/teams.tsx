@@ -74,7 +74,6 @@ export default function Teams() {
 		players: [
 			'Colin C',
 			'Don',
-			'Missy',
 			'Stacey',
 			'Colleen R'
 		]
