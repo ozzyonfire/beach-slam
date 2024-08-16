@@ -1,3 +1,4 @@
+import { AudioEgg } from "@/components/audio-egg";
 import Section from "@/components/section";
 import Teams from "@/components/teams";
 import { Navbar } from "@/components/ui";
@@ -16,21 +17,7 @@ export default function FreelancerHome() {
             objectFit: "cover",
           }}
         />
-        <video
-          className="opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out"
-          style={{
-            objectFit: "cover",
-            width: "100%",
-            height: "100%",
-            position: "absolute",
-          }}
-          src="/img/moshed-banner.mp4"
-          loop
-          playsInline
-          autoPlay
-          muted
-          preload="auto"
-        ></video>
+        <AudioEgg />
       </div>
       <Section title="About" colour="white" id="about">
         <div className="container mx-auto px-12 max-w-3xl text-lg">
