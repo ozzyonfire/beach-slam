@@ -38,7 +38,7 @@ export default function Teams() {
 			'Julie K'
 		]
 	}, {
-		name: 'Big Dig Energy',
+		name: 'Nicholson Crew-Setters',
 		players: [
 			'Adam R',
 			'Jac R',
