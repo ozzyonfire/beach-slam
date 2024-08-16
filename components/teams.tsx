@@ -60,7 +60,8 @@ export default function Teams() {
 			'Austin',
 			'JC',
 			'Autumne',
-			'Kelly L'
+			'Kelly L',
+			'Michelle'
 		]
 	}, {
 		name: 'Bad Apples',
