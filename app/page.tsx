@@ -52,38 +52,45 @@ export default function FreelancerHome() {
         <div className="container mx-auto px-12 max-w-3xl text-lg">
           <div className="flex flex-col items-center gap-2">
             <p className="text-center">
-              Registration is now open! Please fill out the form below to
-              register your team.
+              Thank you for registering for Beach Slam. Registration is now
+              closed.
             </p>
-            <a
+            {/* <a
               href="https://forms.gle/Aa5YKB5foos2JAp6A"
               className="rounded-md bg-cyan-600 px-3 py-1 hover:bg-cyan-500 transition-colors"
               target="_blank"
             >
               Register
-            </a>
+            </a> */}
           </div>
         </div>
       </Section>
       <Section title="Teams" colour="primary" id="teams">
         <div className="container mx-auto text-lg">
-          {/* <Teams />
-           */}
-          <p className="text-lg text-center">
+          <Teams />
+          {/* <p className="text-lg text-center">
             The teams will be posted here once registration closes.
-          </p>
+          </p> */}
         </div>
       </Section>
       <Section title="Schedule & Bracket" colour="white" id="schedule">
-        <div className="container mx-auto text-lg rounded-md overflow-hidden">
-          {/* <iframe
-            src="https://challonge.com/gmhtu86k/module"
-            width="100%"
-            height="600"
-          ></iframe> */}
-          <p className="text-lg text-center">
+        <div className="container flex flex-col gap-8 items-center">
+          <iframe
+            className="rounded-md mx-auto overflow-hidden w-full h-[600px]"
+            src="https://challonge.com/beachslam24/module"
+          ></iframe>
+          {/* <p className="text-lg text-center">
             The bracket will be posted here once registration closes.
-          </p>
+            </p> */}
+          <div>
+            <a
+              className="font-semibold rounded-md text-white bg-cyan-600 px-4 py-2 hover:bg-cyan-500 transition-colors text-center shadow-md"
+              href="https://docs.google.com/spreadsheets/d/11GW9pizzOuza_K3k6huGctK55dosn5ifL245CoJ6kKM/edit?usp=sharing"
+              target="_blank"
+            >
+              Schedule
+            </a>
+          </div>
         </div>
       </Section>
       <footer className="footer">
@@ -128,7 +135,7 @@ export default function FreelancerHome() {
               <li>Justin D&apos;Anna</li>
               <li>Adam Radziwinowski</li>
               <li>Jacob Radziwinowski</li>
-              <li>Maddy Oskamp</li>
+              <li>Logan Ringham</li>
             </ul>
           </div>
         </div>

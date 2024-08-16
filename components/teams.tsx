@@ -1,35 +1,33 @@
+// prettier-ignore
 export default function Teams() {
-
 	const teams: {
 		name: string,
 		subtitle?: string,
 		players: string[],
 	}[] = [{
-		name: 'Ball Busters',
+		name: 'Back 2 School',
 		players: [
-			'Ella S',
-			'Leah M',
-			'Charlotte F',
-			'Madison B',
-			'Hannah K',
-			'Sarah P'
+			'Brooke M',
+			'Jessica M',
+			'Derek C',
+			'Jeffrey C',
+			'Gillian R'
 		],
 	}, {
 		name: 'Big Dogs',
 		players: [
 			'Dan R',
 			'Logan O',
-			'Amelia C',
 			'Dennis O',
 			'Kyle P'
 		]
 	}, {
-		name: 'Block Party',
+		name: 'Team Luka',
 		players: [
-			'Justin D',
-			'Jordan B',
-			'Jason K',
-			'Julie K'
+			'Maddy J',
+			'Brad J',
+			'Jamie D',
+			'Luka J'
 		]
 	}, {
 		name: 'The Smashers',
@@ -37,45 +35,42 @@ export default function Teams() {
 			'John C',
 			'Joey R',
 			'Evan F',
-			'Anna F',
-			'David A',
-			'Alex C',
+			'Julie K'
 		]
 	}, {
 		name: 'Big Dig Energy',
 		players: [
 			'Adam R',
 			'Jac R',
-			'Dan C',
 			'Dan S',
-			'Cindy L',
+			'Ella S',
+			'Charlotte F',
 		]
 	}, {
-		name: 'Body Break',
-		subtitle: 'with Hal Johnson and Joanne McLeod',
+		name: 'Little Cats',
 		players: [
 			'Matt O',
 			'Joe Z',
-			'Alex F',
-			'Paul VW',
 			'Jacklyn H',
-			'Di F',
+			'Amelia C',
 		]
 	}, {
 		name: 'The Replacements',
 		players: [
-			'John H',
-			'Mike F',
-			'Jacqueline J',
-			'Dante R'
+			'Austin',
+			'JC',
+			'Autumne',
+			'Kelly L'
 		]
 	}, {
 		name: 'Bad Apples',
 		players: [
+			'Colleen R',
+			'Taylor W',
+			'Stuart C',
 			'Colin C',
-			'Don',
-			'Stacey',
-			'Colleen R'
+			'Amanda C',
+			'Jacqueline J',
 		]
 	}];
 

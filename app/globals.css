@@ -11,50 +11,50 @@ body {
 }
 
 .section {
-	margin-bottom: 0;
-	padding: 6rem 0;
-	background-color: var(--bg-color);
-	color: var(--text-color);
+  margin-bottom: 0;
+  padding: 6rem 0;
+  background-color: var(--bg-color);
+  color: var(--text-color);
 }
 
 .primary {
-	--bg-color: #1B84C7;
-	--text-color: #fff;
+  --bg-color: #1b84c7;
+  --text-color: #fff;
 }
 
 .secondary {
-	--bg-color: #093447;
-	--text-color: #fff;
+  --bg-color: #093447;
+  --text-color: #fff;
 }
 
 .white {
-	--bg-color: #fff;
-	--text-color: #093447;
+  --bg-color: #fff;
+  --text-color: #093447;
 }
 
 hr.vball {
-	max-width: 15rem;
-	padding: 0;
-	text-align: center;
-	border: none;
-	border-top: solid 0.25rem;
-	margin-top: 2.5rem;
-	margin-bottom: 2.5rem;
-	margin-left: auto;
-	margin-right: auto;
-	overflow: visible;
+  max-width: 15rem;
+  padding: 0;
+  text-align: center;
+  border: none;
+  border-top: solid 0.25rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: visible;
 }
 
 hr.vball:after {
-	position: relative;
-	top: -0.8em;
-	display: inline-block;
-	padding: 0 0.25em;
-	content: "";
-	font-family: "Font Awesome 5 Pro";
-	font-size: 2em;
-	font-weight: 300;
-	background-color: var(--bg-color);
+  position: relative;
+  top: -0.8em;
+  display: inline-block;
+  padding: 0 0.25em;
+  content: "";
+  font-family: "Font Awesome 5 Pro";
+  font-size: 2em;
+  font-weight: 300;
+  background-color: var(--bg-color);
 }
 
 /* :root {
