@@ -100,7 +100,7 @@ export default function FreelancerHome() {
               Checkout the facebook event page for more information.
             </p>
             <a
-              href="https://www.facebook.com/events/1660833068069241"
+              href="https://www.facebook.com/events/1312748843147480"
               target="_blank"
               rel="noreferrer"
             >
