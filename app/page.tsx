@@ -13,9 +13,7 @@ export default function FreelancerHome() {
           src="/img/full.jpg"
           alt="Beach Slam Logo"
           fill
-          style={{
-            objectFit: "cover",
-          }}
+          className="object-cover"
         />
         <AudioEgg />
       </div>
@@ -28,7 +26,7 @@ export default function FreelancerHome() {
               ago and continues to grow and evolve every year.{" "}
               <strong>There is a small registration fee</strong> that goes
               towards food and prizes for the tournament. Teams play in a best
-              two of three match to fifteen. Win by two. Normal beach volleyball
+              two of three match to 21. Win by two. Normal beach volleyball
               rules apply. You must rotate the serve to every player on your
               roster and substitute them accordingly.
             </p>
@@ -64,18 +62,19 @@ export default function FreelancerHome() {
         <div className="container flex flex-col gap-8 items-center">
           <iframe
             className="rounded-md mx-auto overflow-hidden w-full h-[600px]"
-            src="https://challonge.com/beachslam24/module"
+            src="https://challonge.com/beachslam25/module"
           ></iframe>
-          {/* <p className="text-lg text-center">
-            The bracket will be posted here once registration closes.
-            </p> */}
+          <p className="text-lg text-center">
+            Games start at 10:00am sharp! Please arrive on time and warm up
+            before your game.
+          </p>
           <div>
             <a
               className="font-semibold rounded-md text-white bg-cyan-600 px-4 py-2 hover:bg-cyan-500 transition-colors text-center shadow-md"
-              href="https://docs.google.com/spreadsheets/d/11GW9pizzOuza_K3k6huGctK55dosn5ifL245CoJ6kKM/edit?usp=sharing"
+              href="https://docs.google.com/spreadsheets/d/1TfcSg9wrS2asHaWp6DpH9hZxhZDxD5KZo-Ruw3VASYU/edit?usp=sharing"
               target="_blank"
             >
-              Schedule
+              Full Schedule
             </a>
           </div>
         </div>
@@ -121,7 +120,7 @@ export default function FreelancerHome() {
               <li>John Campbell</li>
               <li>Justin D&apos;Anna</li>
               <li>Adam Radziwinowski</li>
-              <li>Jacob Radziwinowski</li>
+              <li>Madison Johnson</li>
               <li>Logan Ringham</li>
             </ul>
           </div>

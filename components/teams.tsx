@@ -5,73 +5,72 @@ export default function Teams() {
 		subtitle?: string,
 		players: string[],
 	}[] = [{
-		name: 'Back 2 School',
+		name: 'Glow Setters',
 		players: [
-			'Brooke M',
-			'Jessica M',
-			'Derek C',
-			'Jeffrey C',
-			'Gillian R'
-		],
+			'Julie K',
+			'Erika P',
+			'Carissa P',
+			'Jac R'
+		]
+	}, {
+		name: 'The Weekenders',
+		players: [
+			'Brad J',
+			'Maddy J',
+			'John H',
+			'Tim H'
+		]
 	}, {
 		name: 'Big Dogs',
 		players: [
 			'Dan R',
 			'Logan O',
 			'Dennis O',
-			'Kyle P'
+			'Kyle P',
+			'Matt O',
+			'Amelia C'
 		]
 	}, {
-		name: 'Team Luka',
+		name: 'Down and Dirties',
 		players: [
-			'Maddy J',
-			'Brad J',
-			'Jamie D',
-			'Luka J'
+			'Lucas L',
+			'Derek C',
+			'Jeffrey C',
+			'Gillian R'
 		]
 	}, {
-		name: 'The Smashers',
+		name: 'Baywatch Blockers',
 		players: [
 			'John C',
-			'Joey R',
-			'Evan F',
-			'Julie K'
-		]
-	}, {
-		name: 'Nicholson Crew-Setters',
-		players: [
 			'Adam R',
-			'Jac R',
-			'Dan S',
-			'Ella S',
-			'Charlotte F',
+			'Charlotte',
+			'Ella S'
 		]
 	}, {
-		name: 'Little Cats',
+		name: 'The Dirty Bumps',
 		players: [
-			'Matt O',
-			'Joe Z',
-			'Jacklyn H',
-			'Amelia C',
+			'Amanda B',
+			'Alex C',
+			'Jordan P',
+			'Evan F',
 		]
 	}, {
-		name: 'The Replacements',
+		name: 'The Rotten Apples',
 		players: [
-			'Austin',
+			'Jacqueline J',
+			'Colleen R',
+			'Taylor',
 			'JC',
-			'Autumne',
-			'Kelly L',
-			'Michelle'
+			'Russell'
 		]
 	}, {
 		name: 'Bad Apples',
 		players: [
-			'Colleen R',
-			'Taylor W',
-			'Stuart C',
+			'Dianne C',
 			'Colin C',
-			'Amanda C',
-			'Jacqueline J',
+			'Amy',
+			'Scott S',
+			'Austin'
 		]
 	}];
 
